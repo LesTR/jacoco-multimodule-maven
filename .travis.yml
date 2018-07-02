@@ -8,10 +8,9 @@ jdk:
 addons:
   apt:
     packages:
-      - oracle-java8-installer
       - realpath
   sonarcloud:
-    organization: datadriven
+    organization: lestr-github
     token:
       secure: $SONAR_TOKEN
 
